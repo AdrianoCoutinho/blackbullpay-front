@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Futura'; /* Escolha um nome para a sua fonte */
+    src: url('../fonts/FutuMd.ttf') format('ttf'); /* Substitua pelo caminho para o seu arquivo de fonte */
+  }
+
+body {
+    font-family: 'Futura', sans-serif;
+}
+
+.bg-grey {
+    background-color: #1C2A47;
+}
+
+.color-grey {
+    color: #1C2A47;
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+#logo-nav {
+    height: 36px;
+}
+
+.nav-link:hover {
+    color: #FF0066 !important;
+}
+
+.nav-link {
+    transition: .4s;
+}
+
+#my-account-button {
+    font-family: poppins,Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #070B0E;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #070B0E;
+    color: #ffffff !important;
+    border-radius: 50px 50px 50px 50px;
+    padding: 7px 10px 5px;
+    margin-left: auto;
+    transition: all .3s;
+}
+
+#my-account-button:hover {
+    background-color: #FF0066;
+    border-color: #FF0066;
+}
+
+#svg-user {
+    height: 16px;
+    fill: #ffffff;
+    padding-right: 5px;
+}
+
+.navbar-toggler {
+    background-color: #070B0E !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/drop-span-color.svg") !important;
+}
